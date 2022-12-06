@@ -130,6 +130,9 @@ body {
     opacity:1;
   }
 }
+.navanim:active a:active{
+  -webkit-animation: fadeIn ease 6s;
+}
 
 ul #guitars {
   float: left;
@@ -218,7 +221,7 @@ opacity: 50%;}
   opacity: 100%;
 }
 footer{
-  background: linear-gradient(black,#b8b1ae);
+  background: linear-gradient(black,#ffa31a);
   -webkit-background-clip: grey ;
   -webkit-text-fill-color:  #b8b1ae ;
   text-align: center;
